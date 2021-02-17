@@ -49,7 +49,7 @@ public static List<Employee> CreateEmployee() throws IOException { //Creating a 
 
 public static List<OverlapDuration> DurationOverlap() throws IOException {
     List<Employee> list=CreateEmployee();
-    List<OverlapDuration> list2=new ArrayList<OverlapDuration>();
+    List<OverlapDuration> list2= new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
         int j=i+1;
         for (; j < list.size(); j++) {
